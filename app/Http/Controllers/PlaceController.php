@@ -56,7 +56,7 @@ class PlaceController extends Controller
     {
         $places = Place::find($id);
         $places->delete();
-        return view('places');
+        return redirect('/places');
     }
 
 
