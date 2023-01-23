@@ -15,10 +15,9 @@
         <input name="description" type="text" value="{{$places->description}}">
         <input name="address" type="text" value="{{$places->address}}">
         <button type="submit">Enviar</button>
-        <hr>
-        <a href="/places/delete/{{$places->id}}">Deletar</a>
+        <br>
     </form>
-
+    <a href="/places/delete/{{$places->id}}">Deletar</a>
     
     
 </body>

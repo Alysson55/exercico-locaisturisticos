@@ -42,8 +42,8 @@ class PlaceController extends Controller
             'name'=>$request->name,
             'description'=>$request->description,
             'address'=>$request->address
-
         ]);
+        return redirect('/places');
     }
 
     public function edit($id)
@@ -56,9 +56,8 @@ class PlaceController extends Controller
     {
         $places = Place::find($id);
         $places->delete();
-        return view('/places');
+        return view('places');
     }
-
 
 
 

@@ -9,7 +9,7 @@
 <body>
     <h1>Locais</h1>
 
-    <a href="">criar local</a> 
+    <a href="/places/create">criar local</a> 
     <hr>
 
     <a href="">praça central</a>
